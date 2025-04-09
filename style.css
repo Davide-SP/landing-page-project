@@ -118,7 +118,7 @@ color: #1F2937;
 }
 
 .quote-section {
-    padding: 96px 232px;
+    padding: 96px 320px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -147,8 +147,30 @@ color: #1F2937;
 
 .cta-container {
     background-color: #3882F6;
+    padding: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
 }
 
 .cta-button {
-    border: 2px solid #F9FAF8;;
+    border: 2px solid #F9FAF8;
+}
+
+h3 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.cta-text {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
