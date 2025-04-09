@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #1f2937;
+    background-color: #1F2937;
     padding: 16px 232px;
     display: flex;
     justify-content: space-between;
@@ -76,3 +76,39 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text-card, h2 {
+color: #1F2937;
+}
+
+.text-card {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
+
+.card {
+    width: 156px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
